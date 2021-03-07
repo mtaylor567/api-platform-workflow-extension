@@ -12,15 +12,14 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "ext-json": "*",
-        "api-platform/core": "^2.4",
-        "symfony/workflow": "^3.4 || ^4.0",
-        "symfony/validator": "^3.4 || ^4.0",
-        "symfony/framework-bundle": "^3.4.4 || ^4.1.12"
+        "php": "^7.4",
+        "api-platform/core": "^2.6",
+        "symfony/workflow": "5.2.*",
+        "symfony/validator": "5.2.*",
+        "symfony/framework-bundle": "5.2.*"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "^4.2"
+        "symfony/phpunit-bridge": "^5.2"
     },
     "autoload": {
         "psr-4": {
